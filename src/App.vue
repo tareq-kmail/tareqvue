@@ -34,6 +34,7 @@ export default {
     },
     addtask(task){
       this.tasks=[...this.tasks,task]
+      alert("tareq");
     },
     
 deletetask(id){
